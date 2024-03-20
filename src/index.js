@@ -1,12 +1,12 @@
 import { createRoot } from "react-dom/client";
-import App from "./App";
+import AppRoutes from "./AppRoutes";
 import { Toaster } from "sonner";
 
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <>
-    <App />
+    <AppRoutes />
     <Toaster richColors />
   </>
 );
