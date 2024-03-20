@@ -9,6 +9,7 @@ import {
 
 import LoginPage from "./pages/LoginPage";
 import App from "./App";
+import RegisterPage from "./pages/RegisterPage";
 
 import { AuthProvider, AuthContext } from "./contexts/auth";
 
@@ -31,7 +32,8 @@ const AppRoutes = () => {
     <Router>
       <AuthProvider>
         <Routes>
-          <Route exact path="/" element={<LoginPage />} />
+          <Route exact path="/login" element={<LoginPage />} />
+          <Route exact path="/" element={<RegisterPage />} />
           <Route
             exact
             path="/dashboard"

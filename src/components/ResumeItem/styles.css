@@ -2,7 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #4169e1;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 30%;
+}
+
+.container2 {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 30%;
+}
+
+.container3 {
+  background: #32cd32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 5px;
   padding: 5px 15px;
   width: 30%;
@@ -12,16 +32,48 @@
   .container {
     width: 20%;
   }
-  
+
   .container p {
     font-size: 12px;
   }
-  
+
   .container span {
     font-size: 20px;
   }
-  
+
   .container svg {
+    display: none;
+  }
+
+  .container2 {
+    width: 20%;
+  }
+
+  .container2 p {
+    font-size: 12px;
+  }
+
+  .container2 span {
+    font-size: 20px;
+  }
+
+  .container2 svg {
+    display: none;
+  }
+
+  .container3 {
+    width: 20%;
+  }
+
+  .container3 p {
+    font-size: 12px;
+  }
+
+  .container3 span {
+    font-size: 20px;
+  }
+
+  .container3 svg {
     display: none;
   }
 }

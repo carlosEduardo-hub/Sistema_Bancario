@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeItem from "../ResumeItem";
+import { ResumeItem, ResumeItem2, ResumeItem3 } from "../ResumeItem";
 import * as C from "./styles";
 import {
   FaRegArrowAltCircleUp,
@@ -15,12 +15,12 @@ const Resume = ({ income, expense, total }) => {
         Icon={FaRegArrowAltCircleUp}
         value={income}
       />
-      <ResumeItem
+      <ResumeItem2
         title="Saídas"
         Icon={FaRegArrowAltCircleDown}
         value={expense}
       />
-      <ResumeItem title="Total" Icon={FaDollarSign} value={total} />
+      <ResumeItem3 title="Total" Icon={FaDollarSign} value={total} />
     </C.Container>
   );
 };
