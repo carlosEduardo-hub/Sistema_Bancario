@@ -28,6 +28,7 @@ const RegisterPage = () => {
         <p>Cadastro</p>
         <div className="field">
           <input
+            required
             placeholder="Nome"
             value={name}
             id="name"
@@ -37,6 +38,7 @@ const RegisterPage = () => {
         </div>
         <div className="field">
           <input
+            required
             placeholder="email"
             value={email}
             id="email"
@@ -46,6 +48,7 @@ const RegisterPage = () => {
         </div>
         <div className="field">
           <input
+            required
             placeholder="Password"
             value={password}
             id="password"

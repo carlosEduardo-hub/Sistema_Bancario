@@ -40,7 +40,7 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
 
       // Verifica se há saldo suficiente para a nova transação de saída
       if (parseFloat(amount) > currentBalance) {
-        alert("Saldo insuficiente para realizar esta transação de saída!");
+        toast.error('Saldo insuficiente para realizar esta transação de saída!');
         return;
       }
     }
